@@ -3,7 +3,7 @@
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
- 
+
 nav#menu ul{
     text-transform: uppercase;
     list-style: none;
@@ -14,12 +14,13 @@ nav#menu ul{
 nav#menu{
     display: block;
 }
- 
+
 nav#menu li{
     display: inline-block;
     background-color: rgb(74,7,191);
+    color: antiquewhite;
     padding: 10px;
- 
+
 }
 body{
     background: rgb(74,7,191);
@@ -42,9 +43,21 @@ nav#menu a>:visited{
     color: antiquewhite;
     font-weight: bold;
 }
-nev#menu a:hover{
-    background-color: rgb(41, 10, 95);
-}
 nav#menu a:hover{
-    background-color: rgb(74,7,191);
+    color: antiquewhite;
+}
+nav#menu li:hover{
+    background-color: rgb(32, 7, 77);
+}
+/* Manipulação de imagens do projeto, na página produtos */
+.produto img{
+    max-width: 300px;
+}
+ 
+.produto p{
+    color: white;
+}
+ 
+.precoDesc{
+    font-size: 30px;
 }
